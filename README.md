@@ -38,7 +38,7 @@ graph LR
     end
 ```
 
-## � Installation
+## 📥 Installation
 
 You can use the server without local installation via `npx` or `bunx`, or install it globally:
 
