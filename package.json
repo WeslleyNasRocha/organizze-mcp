@@ -1,13 +1,26 @@
 {
   "name": "organizze-mcp",
-  "module": "index.ts",
+  "version": "1.1.0",
+  "description": "Model Context Protocol (MCP) server for Organizze API",
   "type": "module",
-  "private": true,
+  "main": "dist/index.js",
+  "bin": {
+    "organizze-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "bun run --silent index.ts",
-    "dev": "bun run --watch index.ts"
+    "build": "bun build ./index.ts --outdir ./dist --target node",
+    "start": "bun run dist/index.js",
+    "dev": "bun run --watch index.ts",
+    "format": "biome format --write .",
+    "lint": "biome lint --write .",
+    "check": "biome check --write .",
+    "prepublishOnly": "bun run build"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.3.14",
     "@types/bun": "latest"
   },
   "peerDependencies": {
