@@ -1,6 +1,6 @@
 {
-  "name": "organizze-mcp",
-  "version": "1.1.0",
+  "name": "organizze-mcp-server",
+  "version": "1.1.1",
   "description": "Model Context Protocol (MCP) server for Organizze API",
   "type": "module",
   "main": "dist/index.js",

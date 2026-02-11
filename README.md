@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Organizze MCP Banner" width="100%">
-</p>
-
 # 💰 Organizze MCP Server
 
 Refined and feature-complete Model Context Protocol (MCP) server for the [Organizze API](https://github.com/organizze/api-doc), designed for the best financial management experience.
